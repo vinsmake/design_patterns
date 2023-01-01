@@ -1,0 +1,82 @@
+h1, h2 {
+    text-align: center;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.section {
+    background-color: gainsboro;
+    width: 95%;
+    margin: auto;
+}
+
+.element {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    background-color: gray;
+    text-align: center;
+}
+
+.element--title {
+    color: rgb(255, 204, 62);
+    font-size: 4rem;
+}
+
+.element--img {
+    width: 100%;
+}
+
+.element--p {
+    color: rgb(44, 44, 44);
+    font-size: 2rem;
+}
+
+.element--a {
+    font-size: 3rem;
+    color: blue;
+}
+
+/* DESIGN CODE */
+/* 2 COLUMNS */
+/* 2 COLUMNS GRID */
+.grid--2columns {
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    gap: 2rem;
+}
+/* 2 COLUMNS FLEX */
+.flex--2columns {
+    display: flex;
+    justify-content: space-between; /* not necessary, but good practice */
+    gap: 2rem;
+}
+/* 3 COLUMNS */
+/* 3 COLUMNS GRID */
+.grid--3columns {
+    display: grid;
+    grid: 1fr / repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* 3 COLUMNS flex */
+.flex--3columns {
+    display: flex;
+    gap: 2rem;
+}
+
+/* 3 COLUMNS 1:2:1 */
+/* 3 COLUMNS 1:2:1 GRID */
+.grid--121columns {
+
+}
+/* 3 COLUMNS 1:2:1 FLEX */
+.flex--121columns {
+
+}
